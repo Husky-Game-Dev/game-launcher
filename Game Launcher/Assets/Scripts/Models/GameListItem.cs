@@ -6,4 +6,5 @@ public class GameListItem
     public string path;
     public string url;
     public bool useURL;
+    public string imagePath;
 }

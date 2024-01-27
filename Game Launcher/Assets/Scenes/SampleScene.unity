@@ -1018,7 +1018,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   ShowPagePreviews: 1
-  PagePreviewScale: 0.175
+  PagePreviewScale: 0.2
   LockOneToOneScaleRatio: 1
   EnablePagePreviewOverlays: 1
   PagePreviewOverlayImage: {fileID: 0}
@@ -1038,7 +1038,7 @@ MonoBehaviour:
   Button_LastPage: {fileID: 6999747446503407223}
   AnimationControllerTemplate: {fileID: 9100000, guid: 574d82f2400afbd4f910a224f72b7788, type: 2}
   Pages: []
-  editorSelectedPage: 1
+  editorSelectedPage: 2
   sizingTransform: {fileID: 1728748372397292702}
 --- !u!114 &1190771159039092775
 MonoBehaviour:
@@ -2951,7 +2951,7 @@ GameObject:
   - component: {fileID: 1671366240104067849}
   m_Layer: 5
   m_Name: Page Previews
-  m_TagString: Untagged
+  m_TagString: pageRect
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
