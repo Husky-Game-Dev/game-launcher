@@ -21,7 +21,15 @@
             "id": 3,
             "title": "Sample Game",
             "path": "",
-            "url": "google.com",
+            "url": "https://www.google.com/",
+            "useURL": true,
+            "imagePath": "image.jpg"
+        },
+        {
+            "id": 3,
+            "title": "Sample Game",
+            "path": "",
+            "url": "https://www.google.com/",
             "useURL": true,
             "imagePath": "image.jpg"
         }

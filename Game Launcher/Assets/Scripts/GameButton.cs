@@ -40,8 +40,8 @@ public class GameButton : MonoBehaviour
             }
             else
             {
-                string path = Application.dataPath + url;
-                var process = Process.Start(path);
+                string fullPath = Application.dataPath + path;
+                var process = Process.Start(fullPath);
                 launcher.LaunchGame(title, process);
             }
         }
