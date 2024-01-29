@@ -15,8 +15,7 @@ public class GameButton : MonoBehaviour
     private LauncherUI launcher;
     private PagedRect pagedRect;
 
-    private Image gameImage;
-    private Button button;
+    private Sprite gameImage;
 
     [SerializeField] TextMeshProUGUI gameTitle;
 
@@ -24,9 +23,10 @@ public class GameButton : MonoBehaviour
     {
         launcher = FindObjectOfType<LauncherUI>();
         pagedRect = GameObject.FindGameObjectWithTag("pageRect").GetComponent<PagedRect>();
-        gameImage = Resources.Load<Image>(imagePath);
-        button = gameObject.GetComponent<Button>();
-        button.image = gameImage;
+
+        gameImage = Resources.Load<Sprite>(imagePath);
+        gameObject.GetComponent<Image>().sprite = gameImage;
+
         gameTitle.text = title;
     }
 

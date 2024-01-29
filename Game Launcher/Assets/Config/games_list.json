@@ -7,7 +7,7 @@
             "path": "/../../Game Builds/Sample Game/Game.exe",
             "url": "",
             "useURL": false,
-            "imagePath": "image.jpg"
+            "imagePath": "image"
         },
         {
             "id": 2,
@@ -23,15 +23,15 @@
             "path": "",
             "url": "https://www.google.com/",
             "useURL": true,
-            "imagePath": "image.jpg"
+            "imagePath": "image"
         },
         {
-            "id": 3,
+            "id": 4,
             "title": "Sample Game",
             "path": "",
             "url": "https://www.google.com/",
             "useURL": true,
-            "imagePath": "image.jpg"
+            "imagePath": "image"
         }
     ]
 }

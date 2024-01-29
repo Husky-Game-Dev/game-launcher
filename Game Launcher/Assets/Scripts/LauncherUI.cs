@@ -38,6 +38,7 @@ public class LauncherUI : MonoBehaviour
             gameButtonScript.path = game.path;
             gameButtonScript.url = game.url;
             gameButtonScript.useURL = game.useURL;
+            gameButtonScript.imagePath = game.imagePath;
             buttons.Add(button);
         }
     }
